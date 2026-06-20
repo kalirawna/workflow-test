@@ -1,5 +1,6 @@
 {
   "name": "workflow",
   "description": "For workflow related testing",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "exports": "./mod.ts"
 }
