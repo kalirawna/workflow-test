@@ -12,11 +12,12 @@ on:
       - main
       - "feature/**"
 
+permissions:
+  contents: read
+
 jobs:
   test:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
 
     steps:
       - name: Use actions/checkout@v6
