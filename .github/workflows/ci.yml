@@ -29,7 +29,7 @@ jobs:
           version: v2.x
 
       - name: Format check
-        run: deno run fmt --check
+        run: deno fmt --check
 
       - name: Lint
         run: deno lint
